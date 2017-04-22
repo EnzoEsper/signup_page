@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles/style.css">
+
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu');
+	</style>
+
+	<title>Document</title>
+</head>
+<body>
+	<img src="images/logo.png" class="logo" alt="">
+	<form action="" class="formulario">
+		<legend class="titulo">Sign Up</legend>
+
+		<label for="email" class="lab" required>Email</label>
+      	<input type="email" class="inp" name='email' id='email' placeholder="foo@bar.com" />
+
+      	<label for="password" class="lab" required>Last name</label>
+      	<input type="password" class="inp" name='password' id='password' placeholder='1234passw0rd' />
+
+      	<button type='submit' formmethod="post" formaction="/signup/" class="boton ">Sign Up</button>
+      	<p><a href="/forgot-password/new">Forgot password?</a></p>
+	</form>
+
+	<p class="cuenta">Already have an account? <a href="/login">Log in</a></p>
+</body>
+</html>

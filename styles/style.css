@@ -1,0 +1,95 @@
+body {
+	background-color: #0C93F2;
+	margin-top: 100px;
+}
+
+.logo {
+	height: 35px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+.formulario {
+	display: block;
+	background-color: #FFFFFF;
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0.5%;
+	padding: 0 40px 0 40px;
+
+}
+
+form .titulo {
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 40px;
+	font-family: 'Ubuntu' , sans-serif ;
+	font-size: 45px;
+	margin-bottom: 40px;
+}
+
+form .inp {
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 286px;
+	border:2px solid #D2CCCC;
+	
+}
+
+form .boton {
+	margin-top: 20px;
+	display: block;
+	width: 320px;
+	border:2px solid #71DD76;
+	background-color: #71DD76;
+	font-weight: bold;
+	color: white;
+}
+
+form .lab {
+	font-family: 'Roboto' , sans-serif ;
+	font-size: 20px;
+}
+
+form .inp , .boton {
+	
+	padding: 15px;
+	font-size: 18px;
+	border-radius: 2px;
+	}
+
+
+form p {
+	font-family: 'Roboto' , sans-serif ;
+	text-align: center;
+	margin:0;
+	padding-bottom: 25px;
+}
+
+.cuenta {
+	margin-left: auto;
+	margin-top: auto;
+	text-align: center;
+	margin-top: 15px;
+	font-weight: bold;
+	color:white;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+form a {
+	color:grey;
+}
+
+a {
+	color:white;
+}
+
+button:hover {
+	background-color: #36C958;
+}
+
